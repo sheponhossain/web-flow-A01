@@ -1,6 +1,40 @@
 .primary-color{
     color: #4E47FF;
 }
+.btn-primary{
+    color: #FFFFFF;
+
+}
+/* navigation heading style */
+.header{
+    background-image: url();
+}
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    align-items: center;
+}
+.singup-btn{
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px 26px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+}
 .Logo{
-    font-weight: 34px;
+    font-size: 34px;
+    font-weight: black;
+}
+/* navigation title style */
+.nav-title{
+    text-align: center;
+    margin: 158px 267px 200px 267px;
+}
+.nav-title
+.nav-description{
+    font-size: 65px;
+    font-weight: bold;
 }

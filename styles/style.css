@@ -225,7 +225,21 @@
     padding-left: 31px;
 }
 .touch-fontsize{
+    font-size: 18px;
+}
+.touch-getinfo textarea::placeholder{
+    padding-top: 50px;
+    
     font-size: 20px;
+    padding-left: 31px;
+}
+.touch-getinfo textarea{
+    font-size: 20px;
+}
+.msg-size{
+    width: 497px;
+    height: 135px;
+    margin-bottom: 20px;
 }
 /* footer Section Style */
 .logo{

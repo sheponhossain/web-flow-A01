@@ -5,9 +5,12 @@
     color: #FFFFFF;
 
 }
+.icon-color{
+    color: #FFB805;
+}
 /* navigation heading style */
 .header{
-    background-image: url();
+    background-image: url(/styles/Assets/Hero-bg.png);
 }
 .nav-section{
     display: flex;
@@ -33,8 +36,58 @@
     text-align: center;
     margin: 158px 267px 200px 267px;
 }
-.nav-title
+
 .nav-description{
     font-size: 65px;
     font-weight: bold;
+}
+/* action section style */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 160px 116px 140px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-content{
+    width: 517px;
+    height: 203px;
+    
+}
+.action-pera{
+    font-size: 24px;
+    color: #25243250;
+}
+.action-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+/* Productive User Section Style */
+.productive-user{
+    margin: 0px 160px 140px 140px;
+    background-color: #4E47FF10;
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.user-data{
+    display: flex;
+    justify-content: space-between;
+}
+.usersub-title{
+    font-size: 80px;
+}
+.usersub-pera{
+    font-size: 20px;
+    color: #000000;
 }

@@ -1,3 +1,8 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(#00000020, #00000020);
+}
 .primary-color{
     color: #4E47FF;
 }
@@ -90,4 +95,74 @@
 .usersub-pera{
     font-size: 20px;
     color: #000000;
+}
+
+/* User Feedback Section */
+.user-feedback-section-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px 140px 150px;
+
+}
+.feed-title{
+    font-size: 42px;
+    text-align: center;
+    font-weight: bold;
+    color: #252432;
+}
+.feed-card{
+    width: 366.67px;
+    height: 243px;
+    margin-right: 18px;
+    background-color: #FFFFFF;
+    padding: 24px 24px;
+    border-radius: 14px;
+}
+.card-title{
+    font-size: 24px;
+    color: #1E1E1E;
+}
+.feed-pera{
+    font-size: 16px;
+    color: #1E1E1E;
+}
+.reviw{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    gap: 14px;
+}
+.reviw-title{
+    
+    font-size: 16px;
+    color: #757575;
+}
+.reviw-date{
+    margin-top: -20px;
+    color: #B3B3B3;
+}
+.reviw-img{
+    border-radius: 50%;
+}
+
+/* Ready to focus better Section */
+.focus{
+    text-align: center;
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.focus-description{
+    padding-top: -20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #00000050;
+}
+.focus-img{
+    width: 840px;
+    margin-top: 20px;
+    height: 364.77px;
+    border-radius: 48px;
 }

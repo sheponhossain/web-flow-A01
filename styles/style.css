@@ -31,6 +31,9 @@
 }
 /* navigation heading style */
 .header{
+    /* padding-bottom: 200px; */
+    height: 698px;
+    margin-bottom: 116px;
     background-image: url(/styles/Assets/Hero-bg.png);
 }
 .nav-section{
@@ -47,6 +50,12 @@
     border-radius: 10px;
     color: #FFFFFF;
     background-color: #4E47FF;
+    cursor: pointer;
+}
+.singup-btn:hover{
+    background-color: #5CEBDF;
+    color: #22262A;
+    transition: .4s;
 }
 .Logo{
     font-size: 34px;

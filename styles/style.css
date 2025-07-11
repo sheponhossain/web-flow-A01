@@ -34,7 +34,7 @@
     /* padding-bottom: 200px; */
     height: 698px;
     margin-bottom: 116px;
-    background-image: url(/styles/Assets/Hero-bg.png);
+    background-image: url(../styles/Assets/Hero-bg.png);
 }
 .nav-section{
     display: flex;

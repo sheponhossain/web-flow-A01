@@ -148,6 +148,7 @@
 /* Ready to focus better Section */
 .focus{
     text-align: center;
+    margin-bottom: 125px;
 }
 .focus-title{
     font-size: 50px;
@@ -165,4 +166,38 @@
     margin-top: 20px;
     height: 364.77px;
     border-radius: 48px;
+}
+
+/* touch Section style */
+.touch{
+    display: flex;
+    margin: 0px 200px 0px 100px;
+    padding: 71px 0px;
+}
+.touch-title-name{
+    font-size: 97px;
+    font-weight: bold;
+}
+.touch-getinfo label{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+}
+.touch-getinfo input{
+    width: 497px;
+    height: 70px;
+    margin-bottom: 20px;
+    border: 2px solid #D6DDED;
+    border-radius: 10px;
+}
+.touch-getinfo-input{
+    width: 497px;
+    height: 70px;
+    
+}
+.touch-getinfo input::placeholder{
+    font-size: 20px;
+}
+.touch-fontsize{
+    font-size: 20px;
 }
